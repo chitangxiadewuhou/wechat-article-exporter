@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: wechat-article-exporter # 此处需要修改为第2步中你自己的项目名
+          project: chitangxiad-wechat-arti-97 # 此处需要修改为第2步中你自己的项目名
           entrypoint: server/index.ts
           root: .output
